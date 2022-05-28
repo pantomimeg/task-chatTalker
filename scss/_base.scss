@@ -1,0 +1,148 @@
+body{
+  font-family: $text-zh ;
+  color: #221E1F;;
+}
+
+ol, ul {
+  padding-left: 0;
+}
+
+sub {
+    bottom: 0;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+.mt-9{
+  margin-top: 7rem;
+}
+
+.mb-7{
+  margin-bottom: 5rem;
+}
+
+.mb-9{
+  margin-bottom: 7rem;
+}
+
+.bb-1{
+  border-bottom: 1px solid #dee2e6 ;
+}
+
+// btn ------------------------------------
+
+.btn{
+  padding: 0.5rem 1.75rem;
+  color: #fff;
+  border-radius: 5rem;
+} 
+
+.btn-primary:hover,.btn-secondary:hover{
+  color: #fff;
+}
+
+// card ------------------------------------ 
+
+.card{
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0.75rem;
+  box-shadow: 0px 0.125rem 0.625rem #00000014;
+  border: none;
+}
+
+.card-img-top {
+    border-top-left-radius: calc(0.75rem - 1px);
+    border-top-right-radius: calc(0.75rem - 1px);
+}
+
+// nav-tabs ------------------------------------
+
+.nav-tabs .nav-link {
+  margin: 0 0.5rem;
+  padding: 0.75rem 2rem;
+  background: none;
+  border: 1px solid #56C4C5;
+  border-radius: 10rem;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
+  color: #fff;
+  background-color: #56C4C5;
+  border-color: #56C4C5;
+}
+
+.nav-tabs {
+  justify-content: center;
+  border-bottom: none;
+}
+
+// accordion ------------------------------------
+
+.accordion-item {
+    border-radius: 0.75rem;
+    border: none;
+    box-shadow: 0px 0.125rem 0.625rem #00000014;
+}
+
+.accordion-item:first-of-type,.accordion-item:first-of-type .accordion-button,.accordion-item:last-of-type,.accordion-item:last-of-type .accordion-button.collapsed{
+    border-radius: 0.75rem;
+}
+
+.accordion-button{
+    padding: 1rem 2rem;
+    border-radius: 0.75rem;
+    color: $black;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #56C4C5;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.accordion-body {
+    padding: 1rem 2rem;
+}
+
+.accordion-button::after {
+    background-image: url('/img/icon_minus.svg');
+    background-position: center;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('/img/icon_plus.svg');
+}
+
+
+///// ------------------- mobile -------------------
+
+@media (max-width: 375px) {
+  .card-pd-sm{
+    padding-right: calc(var(--bs-gutter-x) * 1.5) !important;
+    padding-left: calc(var(--bs-gutter-x) * 1.5) !important;
+  } 
+
+// nav-tabs ------------------------------------
+
+  .nav-tabs .nav-link {
+    margin: 0 0.25rem;
+    padding: 0.75rem;
+    width: 8rem;
+  }
+
+// accordion ------------------------------------
+
+  .accordion-button{
+    padding: 1rem;
+  }
+  .accordion-body {
+    padding: 1rem;
+}
+
+
+
+}
+

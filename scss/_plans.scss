@@ -1,0 +1,110 @@
+
+.bn-plans {
+  height: 75vh;
+  background: url('/img/banner.svg') top 0 right no-repeat;
+  background-size: auto 75vh;
+  &::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 70vh;
+    background: #F7F9FD 0 0 no-repeat;
+    border-radius: 0 0 0 25rem;
+    z-index: -1;
+  }
+}
+
+main{
+  .cardPlan{
+    padding: 0 10%;
+    h5{
+      padding: 1rem;
+      color: $black;
+      font-weight: bold;
+      border-bottom: 1px solid #DDDDDD;
+    }
+    img{
+      margin: 0 .75rem 0 1.75rem;
+      display: inline-block;
+    }
+  }
+  .calculate{
+    div{
+      width: 40%;
+      height: 6rem;
+      background: #F5F5F5;
+      border-radius: 12px;
+    }
+    span{
+      font-size: 0.75rem;
+    }
+    p{
+      margin-bottom: 0;
+      font-size: 2rem;
+      font-family: $text-num;
+    }
+    span.equal{
+      margin: 0 1rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  .faq{
+    padding: 0 10%;
+    p{
+      line-height: 2;
+      color: #747474;
+    }
+  }
+
+
+
+}
+
+
+
+///// ------------------- mobile -------------------
+
+@media (max-width: 375px) {
+  .bn-plans {
+  height: 80vh;
+  background: url('/img/banner_sm.svg') top 20% right  no-repeat;
+  background-size: auto 80vh;
+  &::after{
+    height: 80vh;
+    border-radius: 0 0 0 10rem;
+    }
+  }
+
+
+  main{
+    .nav-tabs{
+      overflow-x: auto;
+      justify-content: flex-start;
+    }
+    .cardPlan{
+      padding: 0;
+      img{
+        margin: 0 .5rem;
+      }
+      .card-text{
+        p{
+          font-size: .75rem;
+        }
+      }
+    }
+    .calculate{
+      p{
+        font-size: 1.75rem;
+      }
+    }
+    .faq{
+      padding: 0;
+    }
+  }
+
+
+}
+
+

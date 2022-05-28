@@ -1,0 +1,108 @@
+
+.bn-index {
+  height: 100vh;
+  background: url('/img/home.svg') top 30% right 10% no-repeat, url('/img/bg_home.svg') top right no-repeat;
+  background-size: auto 75vh, auto 100vh;
+}
+
+main{
+  .icon {
+    width: 90px;
+    margin: 0 auto;
+    img {
+      width: 100%;
+    }
+  }
+
+  .cardFunction{
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    .imgBg{
+      width: 86px;
+      height: 86px;
+      border-radius: 50%;
+      box-shadow: 0px 0.125rem 0.625rem #00000014;
+      img{
+        width: 65%;
+        height: 65%;
+      }
+    }
+    h5{
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+  }
+  .cardFeedback{
+    .card-body{
+      padding: 4rem 2.5rem 2.5rem 2.5rem;
+    }
+    .card-img-outTop{
+      top: -2.5rem;
+      left: 2rem;
+      width: 80px;
+      height: 80px;
+      img{
+        width: 100%;
+        border-radius: 50%;
+      }
+    }
+    h5{
+      font-weight: bold;
+    }
+    .card-stars{
+      max-width: 30%;
+      img{
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-left: .25rem;
+      }
+    }
+  }
+}
+
+.bn-footer{
+  height: 45vh;
+  background: url('/img/home_footer.svg')top center repeat-x;
+  // background-size: cover;
+  h2{
+    margin-top: 12rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+
+///// ------------------- mobile -------------------
+
+@media (max-width: 375px) {
+  .bn-index {
+    background: url('/img/home.svg') bottom 10% center no-repeat, url('/img/bg_home_sm.svg') bottom 10% center no-repeat;
+    background-size: 90% auto, 90% auto;
+  }
+
+  main{
+    .cardFunction{
+      h5{
+        font-size: 1rem;
+      }
+    }
+    
+  }
+
+  .bn-footer{
+    height: 65vh;
+    background: url('/img/footer_sm.svg')top center no-repeat;
+    h2{
+      margin-top: 14rem;
+      font-size: 1.5rem;
+    }
+  }
+
+}
+
+
+
+
+
+
+
