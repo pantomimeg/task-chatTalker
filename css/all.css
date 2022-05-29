@@ -12902,7 +12902,7 @@ main .cardFeedback .card-stars img {
 }
 .bn-plans {
   height: 75vh;
-  background: url("..../img/banner.svg") top 0 right no-repeat;
+  background: url("../img/banner.svg") top 0 right no-repeat;
   background-size: auto 75vh;
 }
 .bn-plans::after {
