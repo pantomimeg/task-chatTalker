@@ -1,3 +1,7 @@
+.bg-index{
+  background: url('../img/ball01.svg') top 25% left -20% no-repeat,url('../img/ball02.svg') top 58% right -5% no-repeat, url('../img/ball03.svg') top 78% left 10% no-repeat;
+  background-size: 30rem, 25rem, 13rem;
+}
 
 .bn-index {
   height: 100vh;
@@ -66,7 +70,7 @@ main{
 
 .bn-footer{
   height: 45vh;
-  background: url('img/home_footer.svg')top center repeat-x;
+  background: url('../img/home_footer.svg')top center repeat-x;
   // background-size: cover;
   h2{
     margin-top: 12rem;
@@ -79,6 +83,12 @@ main{
 ///// ------------------- mobile -------------------
 
 @media (max-width: 375px) {
+  .bg-index{
+    max-width: 100%;
+    background: url('../img/ball01.svg') top 1% left -32% no-repeat,url('../img/ball02.svg') top 60% right -25% no-repeat, url('../img/ball03.svg') top 85% left -22% no-repeat;
+    background-size: 8rem, 10rem, 10rem;
+  }
+
   .bn-index {
     background: url('../img/home.svg') bottom 10% center no-repeat, url('../img/bg_home_sm.svg') bottom 10% center no-repeat;
     background-size: 90% auto, 90% auto;
@@ -90,10 +100,17 @@ main{
         font-size: 1rem;
       }
     }
-    
+    .cardFeedback{
+      .card-body{
+        padding: 4rem 1.5rem 1.5rem 1.5rem;
+      }
+      h5{
+          font-size: 1rem;
+      }
+    }
   }
 
-  
+
   .bn-footer{
     height: 65vh;
     background: url('../img/footer_sm.svg')top center no-repeat;

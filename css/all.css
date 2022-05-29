@@ -12811,6 +12811,11 @@ main h3, main .h3 {
     font-size: 1.25rem;
   }
 }
+.bg-index {
+  background: url("../img/ball01.svg") top 25% left -20% no-repeat, url("../img/ball02.svg") top 58% right -5% no-repeat, url("../img/ball03.svg") top 78% left 10% no-repeat;
+  background-size: 30rem, 25rem, 13rem;
+}
+
 .bn-index {
   height: 100vh;
   background: url("../img/home.svg") top 30% right 10% no-repeat, url("../img/bg_home.svg") top right no-repeat;
@@ -12873,7 +12878,7 @@ main .cardFeedback .card-stars img {
 
 .bn-footer {
   height: 45vh;
-  background: url("img/home_footer.svg") top center repeat-x;
+  background: url("../img/home_footer.svg") top center repeat-x;
 }
 .bn-footer h2, .bn-footer .h2 {
   margin-top: 12rem;
@@ -12882,12 +12887,24 @@ main .cardFeedback .card-stars img {
 }
 
 @media (max-width: 375px) {
+  .bg-index {
+    max-width: 100%;
+    background: url("../img/ball01.svg") top 1% left -32% no-repeat, url("../img/ball02.svg") top 60% right -25% no-repeat, url("../img/ball03.svg") top 85% left -22% no-repeat;
+    background-size: 8rem, 10rem, 10rem;
+  }
+
   .bn-index {
     background: url("../img/home.svg") bottom 10% center no-repeat, url("../img/bg_home_sm.svg") bottom 10% center no-repeat;
     background-size: 90% auto, 90% auto;
   }
 
   main .cardFunction h5, main .cardFunction .h5 {
+    font-size: 1rem;
+  }
+  main .cardFeedback .card-body {
+    padding: 4rem 1.5rem 1.5rem 1.5rem;
+  }
+  main .cardFeedback h5, main .cardFeedback .h5 {
     font-size: 1rem;
   }
 
@@ -12900,6 +12917,11 @@ main .cardFeedback .card-stars img {
     font-size: 1.5rem;
   }
 }
+.bg-plans {
+  background: url("../img/ball03.svg") top 65% left -15% no-repeat;
+  background-size: 25rem;
+}
+
 .bn-plans {
   height: 75vh;
   background: url("../img/banner.svg") top 0 right no-repeat;
@@ -12956,6 +12978,11 @@ main .faq p {
 }
 
 @media (max-width: 375px) {
+  .bg-plans {
+    background: url("../img/ball03.svg") top 54% left -25% no-repeat;
+    background-size: 12rem;
+  }
+
   .bn-plans {
     height: 80vh;
     background: url("../img/banner_sm.svg") top 20% right no-repeat;
