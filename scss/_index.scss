@@ -82,7 +82,7 @@ main{
 
 ///// ------------------- mobile -------------------
 
-@media (max-width: 375px) {
+@media (max-width: 576px) {
   .bg-index{
     max-width: 100%;
     background: url('../img/ball01.svg') top 1% left -32% no-repeat,url('../img/ball02.svg') top 60% right -25% no-repeat, url('../img/ball03.svg') top 85% left -22% no-repeat;
