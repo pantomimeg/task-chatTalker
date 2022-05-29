@@ -1,7 +1,7 @@
 
 .bn-plans {
   height: 75vh;
-  background: url('img/banner.svg') top 0 right no-repeat;
+  background: url('..../img/banner.svg') top 0 right no-repeat;
   background-size: auto 75vh;
   &::after{
     content: '';
@@ -69,7 +69,7 @@ main{
 @media (max-width: 375px) {
   .bn-plans {
   height: 80vh;
-  background: url('img/banner_sm.svg') top 20% right  no-repeat;
+  background: url('../img/banner_sm.svg') top 20% right  no-repeat;
   background-size: auto 80vh;
   &::after{
     height: 80vh;
@@ -81,7 +81,6 @@ main{
   main{
     .nav-tabs{
       overflow-x: auto;
-      justify-content: flex-start;
     }
     .cardPlan{
       padding: 0;

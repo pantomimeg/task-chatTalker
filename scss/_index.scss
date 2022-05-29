@@ -1,7 +1,7 @@
 
 .bn-index {
   height: 100vh;
-  background: url('img/home.svg') top 30% right 10% no-repeat, url('img/bg_home.svg') top right no-repeat;
+  background: url('../img/home.svg') top 30% right 10% no-repeat, url('../img/bg_home.svg') top right no-repeat;
   background-size: auto 75vh, auto 100vh;
 }
 
@@ -80,7 +80,7 @@ main{
 
 @media (max-width: 375px) {
   .bn-index {
-    background: url('img/home.svg') bottom 10% center no-repeat, url('img/bg_home_sm.svg') bottom 10% center no-repeat;
+    background: url('../img/home.svg') bottom 10% center no-repeat, url('../img/bg_home_sm.svg') bottom 10% center no-repeat;
     background-size: 90% auto, 90% auto;
   }
 
@@ -95,7 +95,7 @@ main{
 
   .bn-footer{
     height: 65vh;
-    background: url('img/footer_sm.svg')top center no-repeat;
+    background: url('../img/footer_sm.svg')top center no-repeat;
     h2{
       margin-top: 14rem;
       font-size: 1.5rem;
