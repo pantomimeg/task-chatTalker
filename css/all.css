@@ -12649,11 +12649,11 @@ sub {
 }
 
 .accordion-button::after {
-  background-image: url("/img/icon_plus.svg");
+  background-image: url("img/icon_plus.svg");
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url("/img/icon_minus.svg");
+  background-image: url("img/icon_minus.svg");
   background-position: center;
 }
 
@@ -12813,7 +12813,7 @@ main h3, main .h3 {
 }
 .bn-index {
   height: 100vh;
-  background: url("/img/home.svg") top 30% right 10% no-repeat, url("/img/bg_home.svg") top right no-repeat;
+  background: url("img/home.svg") top 30% right 10% no-repeat, url("img/bg_home.svg") top right no-repeat;
   background-size: auto 75vh, auto 100vh;
 }
 
@@ -12873,7 +12873,7 @@ main .cardFeedback .card-stars img {
 
 .bn-footer {
   height: 45vh;
-  background: url("/img/home_footer.svg") top center repeat-x;
+  background: url("img/home_footer.svg") top center repeat-x;
 }
 .bn-footer h2, .bn-footer .h2 {
   margin-top: 12rem;
@@ -12883,7 +12883,7 @@ main .cardFeedback .card-stars img {
 
 @media (max-width: 375px) {
   .bn-index {
-    background: url("/img/home.svg") bottom 10% center no-repeat, url("/img/bg_home_sm.svg") bottom 10% center no-repeat;
+    background: url("img/home.svg") bottom 10% center no-repeat, url("img/bg_home_sm.svg") bottom 10% center no-repeat;
     background-size: 90% auto, 90% auto;
   }
 
@@ -12893,7 +12893,7 @@ main .cardFeedback .card-stars img {
 
   .bn-footer {
     height: 65vh;
-    background: url("/img/footer_sm.svg") top center no-repeat;
+    background: url("img/footer_sm.svg") top center no-repeat;
   }
   .bn-footer h2, .bn-footer .h2 {
     margin-top: 14rem;
@@ -12902,7 +12902,7 @@ main .cardFeedback .card-stars img {
 }
 .bn-plans {
   height: 75vh;
-  background: url("/img/banner.svg") top 0 right no-repeat;
+  background: url("img/banner.svg") top 0 right no-repeat;
   background-size: auto 75vh;
 }
 .bn-plans::after {
@@ -12958,7 +12958,7 @@ main .faq p {
 @media (max-width: 375px) {
   .bn-plans {
     height: 80vh;
-    background: url("/img/banner_sm.svg") top 20% right no-repeat;
+    background: url("img/banner_sm.svg") top 20% right no-repeat;
     background-size: auto 80vh;
   }
   .bn-plans::after {
