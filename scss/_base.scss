@@ -119,7 +119,7 @@ sub {
 
 ///// ------------------- mobile -------------------
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .card-pd-sm{
     padding-right: calc(var(--bs-gutter-x) * 1.5) !important;
     padding-left: calc(var(--bs-gutter-x) * 1.5) !important;
