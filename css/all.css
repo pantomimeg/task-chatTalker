@@ -12669,6 +12669,12 @@ sub {
     width: 8rem;
   }
 
+  .nav-tabs {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+
   .accordion-button {
     padding: 1rem;
   }
