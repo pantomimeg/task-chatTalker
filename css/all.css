@@ -12578,7 +12578,7 @@ sub {
   border-radius: 5rem;
 }
 
-.btn-primary:hover, .btn-secondary:hover, .btn-primary:focus {
+.btn-primary:hover, .btn-secondary:hover, .btn-primary:focus, .btn-secondary:focus {
   color: #fff;
 }
 
