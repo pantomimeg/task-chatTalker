@@ -37,7 +37,7 @@ sub {
   border-radius: 5rem;
 } 
 
-.btn-primary:hover,.btn-secondary:hover{
+.btn-primary:hover,.btn-secondary:hover,.btn-primary:focus{
   color: #fff;
 }
 
@@ -141,8 +141,6 @@ sub {
   .accordion-body {
     padding: 1rem;
 }
-
-
 
 }
 

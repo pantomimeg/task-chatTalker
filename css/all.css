@@ -12578,7 +12578,7 @@ sub {
   border-radius: 5rem;
 }
 
-.btn-primary:hover, .btn-secondary:hover {
+.btn-primary:hover, .btn-secondary:hover, .btn-primary:focus {
   color: #fff;
 }
 
@@ -12677,6 +12677,20 @@ sub {
     padding: 1rem;
   }
 }
+.btn-goTop {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  width: 5rem;
+  height: 5rem;
+  font-size: 1.25rem;
+  font-family: "Wendy One", sans-serif;
+  border-radius: 50%;
+}
+.btn-goTop:hover {
+  opacity: 0.8;
+}
+
 nav {
   padding: 1.5rem 0;
 }
@@ -12750,6 +12764,14 @@ main h3, main .h3 {
 }
 
 @media (max-width: 375px) {
+  .btn-goTop {
+    right: 1.5rem;
+    bottom: 1.5rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    font-size: 1rem;
+  }
+
   nav {
     padding: 1rem 0;
     background: #fff;
@@ -12801,6 +12823,9 @@ main .icon {
 }
 main .icon img {
   width: 100%;
+}
+main .platform p {
+  color: #747474;
 }
 main .cardFunction {
   border-radius: 0.75rem;
