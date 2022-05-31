@@ -37,7 +37,6 @@ main{
     }
     h5{
       font-size: 1.25rem;
-      font-weight: bold;
     }
   }
   .cardFeedback{
@@ -54,9 +53,6 @@ main{
         border-radius: 50%;
       }
     }
-    h5{
-      font-weight: bold;
-    }
     .card-stars{
       max-width: 30%;
       img{
@@ -72,10 +68,10 @@ main{
   height: 45vh;
   background: url('../img/home_footer.svg')top center repeat-x;
   // background-size: cover;
+  padding: 4.5rem 0;
   h2{
     margin-top: 12rem;
     font-size: 2rem;
-    font-weight: bold;
   }
 }
 
@@ -92,6 +88,9 @@ main{
   .bn-index {
     background: url('../img/home.svg') bottom 10% center no-repeat, url('../img/bg_home_sm.svg') bottom 10% center no-repeat;
     background-size: 90% auto, 90% auto;
+    .row{
+      margin-top: 10% ;
+    }
   }
 
   main{
@@ -112,8 +111,9 @@ main{
 
 
   .bn-footer{
-    height: 65vh;
+    height: 52vh;
     background: url('../img/footer_sm.svg')top center no-repeat;
+    background-size: contain;
     h2{
       margin-top: 14rem;
       font-size: 1.5rem;

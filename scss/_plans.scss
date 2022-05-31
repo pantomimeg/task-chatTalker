@@ -62,8 +62,6 @@ main{
     }
   }
 
-
-
 }
 
 
@@ -78,12 +76,15 @@ main{
   }
   
   .bn-plans {
-  height: 80vh;
-  background: url('../img/banner_sm.svg') top 20% right  no-repeat;
-  background-size: auto 80vh;
-  &::after{
     height: 80vh;
-    border-radius: 0 0 0 10rem;
+    background: url('../img/banner_sm.svg') top 20% right  no-repeat;
+    background-size: auto 80vh;
+    &::after{
+      height: 80vh;
+      border-radius: 0 0 0 10rem;
+      }
+    .row{
+      margin-top: 10% ;
     }
   }
 
