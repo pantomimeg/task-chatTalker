@@ -48,6 +48,9 @@ main{
       font-size: 2rem;
       font-family: $text-num;
     }
+    sub{
+      font-family: $text-zh;
+    }
     span.equal{
       margin: 0 1rem;
       font-size: 1.5rem;

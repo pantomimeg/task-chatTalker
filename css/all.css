@@ -12972,6 +12972,9 @@ main .calculate p {
   font-size: 2rem;
   font-family: "Comfortaa", cursive;
 }
+main .calculate sub {
+  font-family: "Noto Sans TC", sans-serif;
+}
 main .calculate span.equal {
   margin: 0 1rem;
   font-size: 1.5rem;
