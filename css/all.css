@@ -12948,7 +12948,7 @@ main .cardFeedback .card-stars img {
 main .cardPlan {
   padding: 0 10%;
 }
-main .cardPlan h5, main .cardPlan .h5 {
+main .cardPlan h3, main .cardPlan .h3 {
   padding: 1rem;
   color: #221E1F;
   font-weight: bold;
