@@ -718,7 +718,7 @@ progress {
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 1120px;
   }
 }
 @media (min-width: 1400px) {
@@ -12857,26 +12857,52 @@ main .cardFunction .imgBg img {
 main .cardFunction h5, main .cardFunction .h5 {
   font-size: 1.25rem;
 }
-main .cardFeedback .card-body {
+main .swiper {
+  display: block;
+  width: 100%;
+}
+main .swiper .swiper-slide {
+  padding: 3rem 0.5rem;
+}
+main .swiper .swiper-slide img {
+  width: 100%;
+}
+main .swiper .card-body {
   padding: 4rem 2.5rem 2.5rem 2.5rem;
 }
-main .cardFeedback .card-img-outTop {
+main .swiper .card-body .card-info {
+  height: 8rem;
+}
+main .swiper .card-img-outTop {
   top: -2.5rem;
   left: 2rem;
   width: 80px;
   height: 80px;
 }
-main .cardFeedback .card-img-outTop img {
+main .swiper .card-img-outTop img {
   width: 100%;
   border-radius: 50%;
 }
-main .cardFeedback .card-stars {
+main .swiper .card-stars {
   max-width: 30%;
 }
-main .cardFeedback .card-stars img {
+main .swiper .card-stars img {
   width: 1.25rem;
   height: 1.25rem;
   margin-left: 0.25rem;
+}
+main .swiper .swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin: 0.25rem;
+  background: #ddd;
+  opacity: 1;
+  border-radius: 50%;
+}
+main .swiper .swiper-pagination-bullet-active {
+  width: 1.25rem;
+  background: #FFD153;
+  border-radius: 0.5rem;
 }
 
 .bn-footer {

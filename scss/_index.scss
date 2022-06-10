@@ -39,9 +39,23 @@ main{
       font-size: 1.25rem;
     }
   }
-  .cardFeedback{
+
+
+  .swiper {
+    display: block;
+    width: 100%;
+    .swiper-slide {
+      padding: 3rem 0.5rem;
+        img {
+        width: 100%;
+        }
+      }
     .card-body{
       padding: 4rem 2.5rem 2.5rem 2.5rem;
+      // height: 18rem;
+      .card-info{
+        height: 8rem;
+      }
     }
     .card-img-outTop{
       top: -2.5rem;
@@ -60,6 +74,19 @@ main{
         height: 1.25rem;
         margin-left: .25rem;
       }
+    }
+    .swiper-pagination-bullet{
+      width: .75rem;
+      height: .75rem;
+      margin: 0.25rem;
+      background: #ddd;
+      opacity:1;
+      border-radius: 50% ;
+    }
+    .swiper-pagination-bullet-active{
+      width: 1.25rem;
+      background: #FFD153;
+      border-radius: .5rem;
     }
   }
 }
